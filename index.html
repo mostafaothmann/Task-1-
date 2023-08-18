@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout Example</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        function ChangeBack(x)
+        {
+        var Rows=document.getElementsByClassName('Row');
+        Rows[x].setAttribute('style','background-color:rgb(174, 174, 211)');
+        }
+    </script>
+</head>
+<body>
+    <table>
+            <th style="background-color: rgb(174, 174, 211);">
+                <img src="./icons8-home-64.png" alt="" style="float: left;">
+                <ul type="none">
+                    <li  >
+                        <a href="" onclick="ChangeBack(0)" >Home </a>
+                    </li> 
+                    <li>
+                        <a href=""  onclick="ChangeBack(1)">About</a>
+                    </li>
+                    <li>
+                        <a href=""  onclick="ChangeBack(2)">Services</a>
+                    </li>
+                    <li>
+                        <a href=""  onclick="ChangeBack(3)">Contact</a>
+                    </li>
+                </ul>
+            </th>
+        </tr>
+        
+        <tr class="Row">
+            <td><h3>Welcome to Our Home Page</h3><p>This is the content of the home section</p></td>
+        </tr>
+        <tr class=Row>
+            <td ><h3>About Us</h3><p>This is the content of the About Us section </p></td>
+        </tr>
+        <tr class="Row">
+            <td ><h3>Our Services</h3><p>This is the content of the Our Services section </p></td>
+        </tr>
+        <tr class="Row">
+            <td ><h3>Contact Us</h3><p>This is the content of the contact Us section </p></td> 
+        </tr>
+        <tr class="last-tr">
+            <td >&copy;2023 Your Company All rights reserved</td>  
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+li
+{
+    display: inline;
+    margin-right: 10px;
+}
+ul
+{
+   float:right;
+}
+table
+{
+    overflow: auto;
+    border:1px solid;
+    border-collapse: collapse;
+    width:100%;
+}
+.last-tr
+{
+    text-align: center;
+}
+th, td {
+    border-bottom: 1px solid #000000;
+  }
+h3{
+    margin-left: 20px;
+}
+p{
+    margin-left: 30px;
+}
